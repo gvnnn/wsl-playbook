@@ -1,0 +1,4 @@
+---
+roles:
+  - gvnnn.editor
+  - gvnnn.tmux

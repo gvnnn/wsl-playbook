@@ -1,0 +1,10 @@
+---
+editor_plugins:
+  - repo: 'https://github.com/neovim/nvim-lspconfig.git'
+    dest: "{{ editor_packpath }}/plugins/start/nvim-lspconfig"
+  - repo: 'https://github.com/nvim-lua/plenary.nvim.git'
+    dest: "{{ editor_packpath }}/plugins/start/plenary.nvim"
+  - repo: 'https://github.com/nvim-telescope/telescope.nvim'
+    dest: "{{ editor_packpath }}/plugins/start/telescope.nvim"
+editor_init_template: myinit.vim.j2
+tmux_conf_template_file: mytmux.conf.j2
